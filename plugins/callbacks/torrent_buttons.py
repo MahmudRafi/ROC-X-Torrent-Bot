@@ -32,7 +32,7 @@ async def torrent_buttons(c: Client, m: CallbackQuery):
         site = html.escape(response[0].get("site"))
         torrent_url = html.escape(response[0].get("url"))
         text = f"<b>Name : {name}\nSize : {size}\nAge : {age}\nLeechers : {leechers}\nNo: of seeds : {seeders}"\
-               f"\nType of File : {type_of_file}\nTorrent Url : {torrent_url}</b>\n\n<b>Magnet Link :</b> <code>{magnet_link}</code>" \
+               f"\nType of File : {type_of_file}</b>\n\n<b>Magnet Link :</b> <code>{magnet_link}</code>" \
                f"\n\n{FOOTER_TEXT}"
         keyboard = InlineKeyboardMarkup(
             [
