@@ -86,7 +86,7 @@ async def get_inline_torrents(query):
                 torrent_url = html.escape(response.get("url"))
                 last_txt = f"<b>Name : {name}\nSize : {size}\nAge : {age}\nLeechers : {leechers}\n" \
                            f"No: of seeds : {seeders}\nType of File : {type_of_file}\nTorrent Url : {torrent_url}</b>" \
-                           f"\n\n<b>Magnet Link :</b> <code>{magnet_link}</code>\n\n<b>Powered by {site} website</b>" \
+                           f"\n\n<b>Magnet Link :</b> <code>{magnet_link}</code>" \
                            f"\n\n{FOOTER_TEXT}/nSupport us @RootOfCyber 🤍"
 
                 result.append(
