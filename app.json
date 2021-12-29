@@ -23,11 +23,11 @@
         },
         "START_MESSAGE": {
             "description": "",
-            "value": "@RootOfCyber"
+            "value": "**@RootOfCyber**"
         },
         "FOOTER_TEXT": {
             "description": "",
-            "value": "@RootOfCyber",
+            "value": "**@RootOfCyber**",
             "required": false
         }
     },
