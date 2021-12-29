@@ -6,8 +6,8 @@
         "torrent",
         "searcher"
     ],
-    "website": "https://github.com/Anandpskerala/TorrentSearcherBot",
-    "repository": "https://github.com/Anandpskerala/TorrentSearcherBot",
+    "website": "https://github.com/MahmudRafi/ROC-X-Torrent-Bot",
+    "repository": "https://github.com/MahmudRafi/ROC-X-Torrent-Bot",
     "env": {
         "API_ID": {
             "description": "Get it from my.telegram.org",
