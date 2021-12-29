@@ -23,11 +23,11 @@
         },
         "START_MESSAGE": {
             "description": "",
-            "value": "*Hi ! I am a simple torrent searcher using @sjprojects's Torrent Searcher api.\n\n\nMade with 🐍 by @KeralasBots*"
+            "value": "@RootOfCyber"
         },
         "FOOTER_TEXT": {
             "description": "",
-            "value": "*Made with ❤️ by @KeralasBots*",
+            "value": "@RootOfCyber",
             "required": false
         }
     },
