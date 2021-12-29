@@ -87,7 +87,7 @@ async def get_inline_torrents(query):
                 last_txt = f"<b>Name : {name}\nSize : {size}\nAge : {age}\nLeechers : {leechers}\n" \
                            f"No: of seeds : {seeders}\nType of File : {type_of_file}\nTorrent Url : {torrent_url}</b>" \
                            f"\n\n<b>Magnet Link :</b> <code>{magnet_link}</code>\n\n<b>Powered by {site} website</b>" \
-                           f"\n\n{FOOTER_TEXT}"
+                           f"\n\n{FOOTER_TEXT}/nSupport us @RootOfCyber 🤍"
 
                 result.append(
                     InlineQueryResultArticle(
@@ -97,7 +97,7 @@ async def get_inline_torrents(query):
                             disable_web_page_preview=True
                         ),
                         reply_markup=keyboard,
-                        thumb_url="https://telegra.ph/file/ea46b9708660e11a62513.jpg"
+                        thumb_url="https://telegra.ph/file/6bd62d3f4dd8569f7f829.jpg"
                     )
                 )
     return result
