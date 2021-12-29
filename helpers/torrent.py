@@ -85,7 +85,7 @@ async def get_inline_torrents(query):
                 site = html.escape(response.get("site"))
                 torrent_url = html.escape(response.get("url"))
                 last_txt = f"<b>Name : {name}\nSize : {size}\nAge : {age}\nLeechers : {leechers}\n" \
-                           f"No: of seeds : {seeders}\nType of File : {type_of_file}\nTorrent Url : {torrent_url}</b>" \
+                           f"No: of seeds : {seeders}\nType of File : {type_of_file}</b>" \
                            f"\n\n<b>Magnet Link :</b> <code>{magnet_link}</code>" \
                            f"\n\n{FOOTER_TEXT}"
 
