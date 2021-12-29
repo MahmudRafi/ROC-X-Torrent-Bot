@@ -3,7 +3,7 @@ import uuid
 import aiohttp
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, \
     InlineQueryResultArticle, InputTextMessageContent
-from config import TORRENTS, FOOTER_TEXT
+from config import TORRENTS, FOOTER_TEXT, START_MESSAGE
 from aiohttp.client_exceptions import ContentTypeError
 
 
