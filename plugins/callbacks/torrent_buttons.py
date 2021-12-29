@@ -14,7 +14,7 @@ async def torrent_buttons(c: Client, m: CallbackQuery):
     if query is None or len(query) == 0:
         return
     try:
-        await m.message.edit("Fetching torrent Info")
+        await m.message.edit("Fetching torrent Info 🔎")
         torrents = TORRENTS[m.message.message_id]
         torrent_name = None
         for torrent in torrents:
@@ -33,7 +33,7 @@ async def torrent_buttons(c: Client, m: CallbackQuery):
         torrent_url = html.escape(response[0].get("url"))
         text = f"<b>Name : {name}\nSize : {size}\nAge : {age}\nLeechers : {leechers}\nNo: of seeds : {seeders}"\
                f"\nType of File : {type_of_file}\nTorrent Url : {torrent_url}</b>\n\n<b>Magnet Link :</b> <code>{magnet_link}</code>" \
-               f"\n\n<b>Powered by {site} website</b>\n\n{FOOTER_TEXT}"
+               f"\n\n{FOOTER_TEXT}/nSupport us @RootOfCyber 🤍"
         keyboard = InlineKeyboardMarkup(
             [
                 [
