@@ -53,10 +53,10 @@ async def get_inline_torrents(query):
             InlineQueryResultArticle(
                 "Search any keyword",
                 input_message_content=InputTextMessageContent(
-                    message_text=f"<b>Search any torrent\nExample :</b> <code>Avengers</code>\n\n{FOOTER_TEXT}"
+                    message_text=f"<b>Search any torrent\nExample :</b> <code> @rocx_torrent_bot Photoshop</code>\n\n{FOOTER_TEXT}"
                 ),
                 reply_markup=keyboard,
-                thumb_url="https://previews.123rf.com/images/fokaspokas/fokaspokas1808/fokaspokas180801753/111837514-loupe-search-or-magnifying-linear-icon-thin-outline-neon-style-light-decoration-icon-bright-electric.jpg"
+                thumb_url="https://telegra.ph/file/21a3e098f4ae320bd0c7a.jpg"
             )
         ]
     else:
